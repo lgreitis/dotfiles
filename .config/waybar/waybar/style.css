@@ -1,0 +1,26 @@
+@import "mocha.css";
+
+* {
+  color: @text;
+}
+
+window#waybar {
+  background-color: transparent;
+}
+
+window#waybar > .horizontal {
+  background-color: alpha(@base, 0.8);
+  border-radius: 999rem;
+  padding: 0 1rem;
+  margin: 9px 9px 0 9px;
+}
+
+.modules-right .module {
+  border-bottom: 2px solid @rosewater;
+  margin: 0 0.25rem;
+}
+
+#workspaces .visible {
+  border-bottom: 2px solid @rosewater;
+  border-radius: 0;
+}
