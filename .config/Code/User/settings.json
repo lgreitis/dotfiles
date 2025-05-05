@@ -1,0 +1,120 @@
+{
+  "settingsSync.ignoredSettings": ["workbench.colorTheme"],
+
+  // "workbench.activityBar.location": "top",
+  "workbench.list.smoothScrolling": true,
+  "workbench.colorTheme": "Vesper",
+  "workbench.iconTheme": "bearded-icons",
+  "workbench.activityBar.location": "top",
+
+  // "apc.activityBar": {
+  //   "position": "bottom",
+  //   "hideSettings": true,
+  //   "size": 28
+  // },
+  "apc.font.family": "JetBrains Mono",
+  // "apc.monospace.font.family": "JetBrains Mono",
+  // "apc.statusBar": {
+  //   "position": "editor-bottom",
+  //   "height": 28,
+  //   "fontSize": 12
+  // },
+
+  "editor.smoothScrolling": true,
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.cursorBlinking": "phase",
+  "editor.fontFamily": "JetBrains Mono",
+  "editor.fontLigatures": true,
+  "editor.fontWeight": "500",
+  "editor.cursorStyle": "block",
+  "editor.accessibilitySupport": "off",
+  "editor.codeActionsOnSave": {},
+  "editor.inlineSuggest.enabled": true,
+  "editor.formatOnSave": true,
+  "editor.minimap.enabled": false,
+
+  "terminal.integrated.fontSize": 12,
+  "terminal.external.osxExec": "iTerm.app",
+  "terminal.integrated.fontFamily": "MesloLGS NF",
+
+  "explorer.fileNesting.enabled": true,
+
+  "git.autofetch": true,
+  "gitlens.currentLine.enabled": false,
+  "emmet.excludeLanguages": ["markdown", "typescriptreact"],
+  "redhat.telemetry.enabled": false,
+  "svg.preview.mode": "svg",
+  "errorLens.enabledDiagnosticLevels": ["info"],
+  "typescript.updateImportsOnFileMove.enabled": "never",
+  "svelte.enable-ts-plugin": true,
+
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[scss]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[astro]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[dart]": {
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+    "editor.rulers": [80],
+    "editor.selectionHighlight": false,
+    "editor.suggestSelection": "first",
+    "editor.tabCompletion": "onlySnippets",
+    "editor.wordBasedSuggestions": "off"
+  },
+
+  "hexeditor.columnWidth": 32,
+  "hexeditor.showDecodedText": true,
+  "hexeditor.defaultEndianness": "little",
+  "hexeditor.inspectorType": "aside",
+  "terminal.integrated.env.osx": {},
+  "editor.tabSize": 2,
+  "zig.path": "",
+  "zig.zls.path": "/Users/lgreitis/Library/Application Support/Code/User/globalStorage/ziglang.vscode-zig/zls_install/zls",
+  "workbench.localHistory.maxFileSize": 1024,
+  "workbench.localHistory.maxFileEntries": 300,
+  "workbench.settings.applyToAllProfiles": ["workbench.localHistory.enabled"],
+  "github.copilot.editor.enableAutoCompletions": true,
+  "terminal.integrated.commandsToSkipShell": ["matlab.interrupt"],
+  "update.mode": "manual",
+
+  "github.copilot.enable": {
+    "*": true,
+    "plaintext": false,
+    "markdown": true,
+    "scminput": false
+  },
+  "[svg]": {
+    "editor.defaultFormatter": "redhat.vscode-xml"
+  },
+  "editor.snippetSuggestions": "none",
+  "[svelte]": {
+    "editor.defaultFormatter": "svelte.svelte-vscode"
+  },
+  "security.workspace.trust.untrustedFiles": "open"
+}
